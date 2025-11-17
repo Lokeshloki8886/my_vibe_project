@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartSip Water Bottle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header>
+        <nav class="navbar">
+            <h1>SmartSip</h1>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#subscribe">Subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Stay Hydrated Smarter</h2>
+        <p>The smart water bottle that tracks your hydration and keeps you healthy.</p>
+        <button id="openModal">Subscribe Now</button>
+        <img src="images/smartbottle.png" alt="Smart Water Bottle" class="hero-img">
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <div class="feature-cards">
+            <div class="card">
+                <h3>Hydration Tracking</h3>
+                <p>Know exactly how much water you drink daily.</p>
+            </div>
+            <div class="card">
+                <h3>Temperature Alert</h3>
+                <p>Alerts you if your water is too hot or cold.</p>
+            </div>
+            <div class="card">
+                <h3>Mobile App</h3>
+                <p>Syncs with your smartphone for reminders and analytics.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-cards">
+            <div class="card">
+                <h3>Basic</h3>
+                <p>$49.99</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <h3>Pro</h3>
+                <p>$79.99</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <h3>Premium</h3>
+                <p>$99.99</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section (Carousel) -->
+    <section id="reviews" class="reviews">
+        <h2>What Users Say</h2>
+        <div class="carousel">
+            <button id="prev">&#10094;</button>
+            <div class="review active">
+                <p>"SmartSip keeps me hydrated every day! Love it."</p>
+                <span>- Alice</span>
+            </div>
+            <div class="review">
+                <p>"I never forget to drink water anymore."</p>
+                <span>- Bob</span>
+            </div>
+            <div class="review">
+                <p>"The temperature alerts are a game-changer."</p>
+                <span>- Charlie</span>
+            </div>
+            <button id="next">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- Subscribe Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal">&times;</span>
+            <h2>Subscribe to Updates</h2>
+            <form id="subscribeForm">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 SmartSip. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
